@@ -5,7 +5,7 @@ import Header from "../components/header";
 import ModelPopup from "../components/ModelPopup";
 import { questionFields, testFields, fileUpload } from "../utils/constant";
 import adminApi from "../config.js/adminApi";
-import { BASE_URL } from "../config.js/constants";
+import { BASE_URL } from "../utils/constant";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 

@@ -3,7 +3,7 @@ import { Form, Input, Button, Checkbox, Select } from "antd";
 import "../index.css";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-import { BASE_URL } from "../config.js/constants";
+import { BASE_URL } from "../utils/constant";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 

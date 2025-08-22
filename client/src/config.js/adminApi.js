@@ -1,5 +1,5 @@
 import axios from "axios";
-import { BASE_URL } from "./constants";
+import { BASE_URL } from "../utils/constant";
 
 const adminApi = axios.create({
   baseURL: BASE_URL || "http://localhost:5000",
